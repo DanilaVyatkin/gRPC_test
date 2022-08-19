@@ -4,3 +4,4 @@ create:
 
 clean:
 	rm gen/proto/*.go
+

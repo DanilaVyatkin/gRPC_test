@@ -2,7 +2,8 @@ syntax = "proto3";
 
 package main;
 
-option go_package = ".";
+option go_package = "./proto";
+
 
 service TestApi {
   rpc Echo(ResponseRequest) returns (ResponseRequest){}
